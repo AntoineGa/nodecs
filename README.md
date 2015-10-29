@@ -17,14 +17,14 @@ To get started using this Dockerfile simply follow the steps below:
 
 2. Move to the relevant version directory
 
-3. Run `docker build -t jchannon/nodecs:1.0.0-beta7 .`
+3. Run `docker build -t jchannon/nodecs:1.0.0-beta8 .`
 
 4. Move to the samples directory
 
 5. __NOTE :__ On OSX/Windows you must create a folder share between your Docker VM and your OS
 (on Windows, you can use the automatically shared folder /c/Users/ )
 
-6. Run `docker run -it -p 5001:5001 -v /mnt/hgfs/Projects/MyApp:/src -w /src jchannon/nodecs:1.0.0-beta7`
+6. Run `docker run -it -p 5001:5001 -v /mnt/hgfs/Projects/MyApp:/src -w /src jchannon/nodecs:1.0.0-beta8`
 
 Now you can browse to `http://DOCKER_IP:5001` to see your app.
 
